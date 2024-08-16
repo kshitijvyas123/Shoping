@@ -1,0 +1,60 @@
+.items{
+  display: flex;
+  flex-direction: row;
+  
+  background-color: aqua;
+  height: 150px;
+  width: 1000px;
+}
+
+.img-size {
+  max-width: 100px;
+}
+.desc{
+  width: 200px;
+}
+.price{
+  width:100px;
+}
+.quantitiy{
+  width:100px;
+}
+.total{
+  width:100px;
+}
+.img {
+  position: relative;
+  height: 20px;
+  width: 20px;
+
+}
+.image-div {
+    
+    height: 100px;
+    width: 100px;
+    border: solid green;
+    position: absolute; /* Add this */
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+}
+a .image {
+  display: block;
+  width: 10px;
+  height: 100px;
+  background-color: #f0f;
+}
+a .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 0;
+}
+
+item-span {
+  align-items: center;
+  width: 300px;
+}
